@@ -8,8 +8,8 @@
 
 
 $con = new-object "System.data.sqlclient.SQLconnection"
-#Set Connection String
-$con.ConnectionString =(“Data Source=shmsdsql.database.windows.net;Initial Catalog=CaseFinder;User ID=msdadmin;Password=PasSw0rd01;Connect Timeout=30;Encrypt=True;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False”)
+#Set Connection String. The string is commetted for security concern. 
+$con.ConnectionString =("#############")
 
 
 
