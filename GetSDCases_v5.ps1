@@ -1,8 +1,8 @@
 $con = new-object "System.data.sqlclient.SQLconnection"
 #Set Connection String. The string is commetted for security concern. 
 $SQLServer = "tcp:shmsdsql.database.windows.net,1433"
-$uid = "msdadmin"
-$pwd = "PasSw0rd01"
+$uid = "######"
+$pwd = "######"
 $con.ConnectionString =("Server=$SQLServer;Initial Catalog=CaseFinder;Persist Security Info=False;User ID=$uid;Password=$pwd;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
 ")
 
